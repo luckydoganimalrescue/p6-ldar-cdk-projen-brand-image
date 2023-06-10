@@ -23,7 +23,7 @@ const project = new awscdk.AwsCdkTypeScriptApp({
     allowedUsernames: ["p6m7g8-automation"],
   },
 
-  devDeps: ["@types/adm-zip", "@types/mime-types"],
+  devDeps: ["@types/adm-zip", "@types/mime-types", "cdk-dia"],
 
   deps: [
     "@aws-cdk/aws-apigatewayv2-alpha@2.83.1-alpha.0",

@@ -12,10 +12,10 @@ exports[`Snapshot 1`] = `
   "Resources": {
     "Certificate4E7ABB08": {
       "Properties": {
-        "DomainName": "ldar.p6m7g8.net",
+        "DomainName": "api.ldar.p6m7g8.net",
         "DomainValidationOptions": [
           {
-            "DomainName": "ldar.p6m7g8.net",
+            "DomainName": "api.ldar.p6m7g8.net",
             "ValidationDomain": "p6m7g8.net",
           },
         ],
@@ -31,7 +31,7 @@ exports[`Snapshot 1`] = `
     },
     "DNFDC76583": {
       "Properties": {
-        "DomainName": "ldar.p6m7g8.net",
+        "DomainName": "api.ldar.p6m7g8.net",
         "DomainNameConfigurations": [
           {
             "CertificateArn": {
@@ -42,6 +42,28 @@ exports[`Snapshot 1`] = `
         ],
       },
       "Type": "AWS::ApiGatewayV2::DomainName",
+    },
+    "DnsRecord68F7FB14": {
+      "Properties": {
+        "AliasTarget": {
+          "DNSName": {
+            "Fn::GetAtt": [
+              "DNFDC76583",
+              "RegionalDomainName",
+            ],
+          },
+          "HostedZoneId": {
+            "Fn::GetAtt": [
+              "DNFDC76583",
+              "RegionalHostedZoneId",
+            ],
+          },
+        },
+        "HostedZoneId": "DUMMY",
+        "Name": "api.ldar.p6m7g8.net.",
+        "Type": "A",
+      },
+      "Type": "AWS::Route53::RecordSet",
     },
     "HttpApiDefaultStage3EEB07D6": {
       "DependsOn": [
@@ -147,15 +169,7 @@ exports[`Snapshot 1`] = `
               {
                 "Ref": "AWS::Partition",
               },
-              ":execute-api:",
-              {
-                "Ref": "AWS::Region",
-              },
-              ":",
-              {
-                "Ref": "AWS::AccountId",
-              },
-              ":",
+              ":execute-api:us-east-1:346733622331:",
               {
                 "Ref": "HttpApiF5A9A8A7",
               },
@@ -221,15 +235,7 @@ exports[`Snapshot 1`] = `
               {
                 "Ref": "AWS::Partition",
               },
-              ":execute-api:",
-              {
-                "Ref": "AWS::Region",
-              },
-              ":",
-              {
-                "Ref": "AWS::AccountId",
-              },
-              ":",
+              ":execute-api:us-east-1:346733622331:",
               {
                 "Ref": "HttpApiF5A9A8A7",
               },
@@ -242,7 +248,7 @@ exports[`Snapshot 1`] = `
     },
     "Identity2D60E2CC": {
       "Properties": {
-        "EmailIdentity": "ldar-pet-brander@p6m7g8.com",
+        "EmailIdentity": "pet-brander@ldar.\${HOSTED_ZONE_NAME}",
       },
       "Type": "AWS::SES::EmailIdentity",
     },
@@ -286,6 +292,27 @@ exports[`Snapshot 1`] = `
         "PolicyDocument": {
           "Statement": [
             {
+              "Action": "s3:GetObject",
+              "Effect": "Allow",
+              "Principal": {
+                "AWS": "*",
+              },
+              "Resource": {
+                "Fn::Join": [
+                  "",
+                  [
+                    {
+                      "Fn::GetAtt": [
+                        "MyBucketF68F3FF0",
+                        "Arn",
+                      ],
+                    },
+                    "/*",
+                  ],
+                ],
+              },
+            },
+            {
               "Action": "s3:PutObject",
               "Effect": "Allow",
               "Principal": {
@@ -319,10 +346,8 @@ exports[`Snapshot 1`] = `
       ],
       "Properties": {
         "Code": {
-          "S3Bucket": {
-            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
-          },
-          "S3Key": "726a21f99bce812a645f79d530bba544f19cd95c9c47400d7f70166158695e55.zip",
+          "S3Bucket": "cdk-hnb659fds-assets-346733622331-us-east-1",
+          "S3Key": "1058f578e62e1f0898a5fd07af422538c34fa0a70a90488779be30b587ee22d3.zip",
         },
         "Environment": {
           "Variables": {
@@ -331,7 +356,7 @@ exports[`Snapshot 1`] = `
               "Ref": "MyBucketF68F3FF0",
             },
             "EMAIL_REGION": "us-east-1",
-            "EMAIL_SENDER": "ldar-pet-brander@p6m7g8.com",
+            "EMAIL_SENDER": "pet-brander@ldar.\${HOSTED_ZONE_NAME}",
             "FIT": "fill",
           },
         },
@@ -455,9 +480,7 @@ exports[`Snapshot 1`] = `
       ],
       "Properties": {
         "Code": {
-          "S3Bucket": {
-            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
-          },
+          "S3Bucket": "cdk-hnb659fds-assets-346733622331-us-east-1",
           "S3Key": "8dd48f165e03802862b89d471e0962bbf0553c856bc3cde427c9af281c6f4af1.zip",
         },
         "Environment": {

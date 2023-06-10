@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #fff
+            /* light blue */
+        }
+        
+        .form-container {
+            width: 40%;
+            height: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: #b3d5fe;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .form-container input,
+        .form-container label,
+        .form-container button {
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="mt-6" id="uploadForm" action="" method="POST" enctype="multipart/form-data">
+        <!-- File upload button -->
+        <div class="flex justify-center mb-8">
+            <label
+                class="w-64 flex flex-col items-center px-4 py-6 bg-white text-blue rounded-lg shadow-lg tracking-wide uppercase border border-blue cursor-pointer hover:bg-blue hover:text-white">
+                <span>Select a file</span>
+                <input type='file' id='imageFile' name='imageFile' class="hidden" />
+            </label>
+        </div>
+        <br />
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+            Email
+        </label>
+        <input
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            id="email" name="email" type="text" placeholder="Email">
+        <!-- Submit button -->
+        <div class="flex justify-center mt-4">
+            <br />
+            <button
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                type="submit">
+                Submit
+            </button>
+        </div>
+    </form>
+    <script src="popup.js"></script>
+</body>
+
+</html>
