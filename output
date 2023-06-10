@@ -1,0 +1,2339 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:13:31Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "23ca65ac-aa00-4b19-802d-e70fa5f841d3",
+  "eventID": "eabcd976-a8c9-4b79-b6d2-fe8976d0e00c",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:13:35Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "b9a146d1-8fae-4b54-b7a9-bf8cc68bd204",
+  "eventID": "ab249bc1-e376-4821-970a-ed91d4d24fa9",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:13:38Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "688b046b-75d5-43cb-b8a4-6c63aefda945",
+  "eventID": "8c38c3e6-2f6a-4bb1-9591-1cfb6bae6e2e",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:13:42Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "e8c98b26-9896-47b3-93c9-e00c23dd882b",
+  "eventID": "1efde017-80d2-4666-9be2-2626d6ab8641",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:13:44Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "7cf86c6b-9878-48f4-aa41-e134ef93a839",
+  "eventID": "0c7ce234-74cc-4a88-9ce0-cb084dbe38ec",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:13:48Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "6676f4f5-48be-4245-8296-dfe7d1cdaba4",
+  "eventID": "2096f549-9e6f-4353-b35d-3065cd259051",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:13:26Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "94823f47-036c-41e9-910c-368db66a93e3",
+  "eventID": "e38daf22-1922-4da8-a637-2c79058fd433",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:13:51Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "4c2efb6b-ef07-41b6-88d8-ed222e6058f9",
+  "eventID": "2da28089-d44f-4a42-9322-25bade1d217a",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:13:54Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "eac4ae73-fadd-46a8-8e6f-244848833d02",
+  "eventID": "f9c205bd-c6c3-4316-bed0-ba33d6849dca",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "Root",
+    "principalId": "346733622331",
+    "arn": "arn:aws:iam::346733622331:root",
+    "accountId": "346733622331",
+    "accessKeyId": "ASIAVBOXPGQ53VDJIJJ5",
+    "userName": "p6m7g8",
+    "sessionContext": {
+      "sessionIssuer": {},
+      "webIdFederationData": {},
+      "attributes": {
+        "creationDate": "2023-06-09T22:02:57Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "health.amazonaws.com"
+  },
+  "eventTime": "2023-06-10T01:14:02Z",
+  "eventSource": "health.amazonaws.com",
+  "eventName": "DescribeEventAggregates",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "health.amazonaws.com",
+  "userAgent": "AWS Internal",
+  "requestParameters": {
+    "filter": {
+      "startTimes": [
+        {
+          "from": "Jun 3, 2023, 1:14:02 AM"
+        }
+      ],
+      "eventStatusCodes": [
+        "open",
+        "upcoming"
+      ]
+    },
+    "aggregateField": "eventTypeCategory"
+  },
+  "responseElements": null,
+  "requestID": "311fafde-4ccb-4e73-a8e4-b24fc3078237",
+  "eventID": "84188527-7c7f-4eae-87c9-cc3048066e3e",
+  "readOnly": true,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "sessionCredentialFromConsole": "true"
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:14:33Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "fcf53d7e-4094-4c91-b7db-f4a274d9cdaa",
+  "eventID": "70b4a623-1d21-4604-abdf-fe8046139312",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:14:36Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "b165c240-0f17-4165-a650-59bdb88051ba",
+  "eventID": "2603ebd1-a0f8-4b62-a5c2-5a24c7394785",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:14:40Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "3148c2d7-63ef-449d-91c2-55169681ec87",
+  "eventID": "56e12d76-fdba-485b-83f8-29fcc6ce2334",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:14:43Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "46c95660-9802-402a-a282-826888556277",
+  "eventID": "b5bd1ab6-34bf-4988-9da4-d829c0d61ff5",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "cloudtrail.amazonaws.com"
+  },
+  "eventTime": "2023-06-10T01:14:51Z",
+  "eventSource": "s3.amazonaws.com",
+  "eventName": "GetBucketAcl",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "cloudtrail.amazonaws.com",
+  "userAgent": "cloudtrail.amazonaws.com",
+  "requestParameters": {
+    "bucketName": "aws-cloudtrail-logs-346733622331-74ad4db9",
+    "Host": "aws-cloudtrail-logs-346733622331-74ad4db9.s3.us-east-1.amazonaws.com",
+    "acl": ""
+  },
+  "responseElements": null,
+  "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "bytesTransferredIn": 0,
+    "AuthenticationMethod": "AuthHeader",
+    "x-amz-id-2": "cBIbQIxqiaVsxM0Sc7u5/hl0SSSZs7+Se+2eLJKFMBA6aEExz2zZfJUjPwt3iDLvjKtTU+En40Q=",
+    "bytesTransferredOut": 554
+  },
+  "requestID": "NB9ZGFD5JDV547W8",
+  "eventID": "6a5cdca0-9bca-483f-90c5-98b6ea6c8382",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::S3::Bucket",
+      "ARN": "arn:aws:s3:::aws-cloudtrail-logs-346733622331-74ad4db9"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "sharedEventID": "1b3600fe-7e29-4c65-bb42-863ee8f5c882",
+  "eventCategory": "Management"
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:14:26Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "a213c7ed-45d9-48ed-9577-c3e45e710fd6",
+  "eventID": "75016ddf-65e9-4654-80ca-72ccc5717eab",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:14:29Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "50e04912-ac09-4159-832d-3c9d714528ea",
+  "eventID": "754a7d92-f9ae-43ed-8e7a-43f0e8fce2ac",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:15:18Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCoYYnHZzE4qjBSHOY7guC7_V_nWXIi-fbxzcCBcUioy6MNuvn_tA4tIu5HoLWICa3-I-37o5-J5_tTgejQUvrX-73KxjPHa9QBvBeYHK2JJZy1WE2gL4MVOa_aQrL-9L5eEkeXHFwFoSiscPZsNWn7eOKx2wYLtnt2EtH6bahNTcmlVidTUVzCcOu83zWqfeSko1bRSEYGfddCE6V405LTx5rO_a_70D4CC2YZb1nQruA",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "a0dcb038-1706-4aea-9f25-f38697bf7446",
+  "eventID": "ad0905a7-b74c-472b-96fc-131ce2fc5b4f",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:15:21Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCoYYnHZzE4qjBSHOY7guC7_V_nWXIi-fbxzcCBcUioy6MNuvn_tA4tIu5HoLWICa3-I-37o5-J5_tTgejQUvrX-73KxjPHa9QBvBeYHK2JJZy1WE2gL4MVOa_aQrL-9L5eEkeXHFwFoSiscPZsNWn7eOKx2wYLtnt2EtH6bahNTcmlVidTUVzCcOu83zWqfeSko1bRSEYGfddCE6V405LTx5rO_a_70D4CC2YZb1nQruA",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "bc5313d0-c829-4815-83a3-005669092341",
+  "eventID": "a378cc18-230a-45f3-8e6a-897b64a2cf4a",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:15:25Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCoYYnHZzE4qjBSHOY7guC7_V_nWXIi-fbxzcCBcUioy6MNuvn_tA4tIu5HoLWICa3-I-37o5-J5_tTgejQUvrX-73KxjPHa9QBvBeYHK2JJZy1WE2gL4MVOa_aQrL-9L5eEkeXHFwFoSiscPZsNWn7eOKx2wYLtnt2EtH6bahNTcmlVidTUVzCcOu83zWqfeSko1bRSEYGfddCE6V405LTx5rO_a_70D4CC2YZb1nQruA",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "75267dd5-6815-49a8-bfa6-7ea4342bf4ab",
+  "eventID": "bed33a59-676b-448a-b642-5a2b295bb605",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:15:29Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCoYYnHZzE4qjBSHOY7guC7_V_nWXIi-fbxzcCBcUioy6MNuvn_tA4tIu5HoLWICa3-I-37o5-J5_tTgejQUvrX-73KxjPHa9QBvBeYHK2JJZy1WE2gL4MVOa_aQrL-9L5eEkeXHFwFoSiscPZsNWn7eOKx2wYLtnt2EtH6bahNTcmlVidTUVzCcOu83zWqfeSko1bRSEYGfddCE6V405LTx5rO_a_70D4CC2YZb1nQruA",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "836a9281-4a43-4197-a669-2fab64206b9d",
+  "eventID": "0688f7dc-270d-479c-a4f3-c2fbfbe848db",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:15:33Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCoYYnHZzE4qjBSHOY7guC7_V_nWXIi-fbxzcCBcUioy6MNuvn_tA4tIu5HoLWICa3-I-37o5-J5_tTgejQUvrX-73KxjPHa9QBvBeYHK2JJZy1WE2gL4MVOa_aQrL-9L5eEkeXHFwFoSiscPZsNWn7eOKx2wYLtnt2EtH6bahNTcmlVidTUVzCcOu83zWqfeSko1bRSEYGfddCE6V405LTx5rO_a_70D4CC2YZb1nQruA",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "13770da0-808a-40df-9f22-414fffa2de6a",
+  "eventID": "f32b8312-1738-4f16-86d5-94e66aab4696",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:15:37Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCoYYnHZzE4qjBSHOY7guC7_V_nWXIi-fbxzcCBcUioy6MNuvn_tA4tIu5HoLWICa3-I-37o5-J5_tTgejQUvrX-73KxjPHa9QBvBeYHK2JJZy1WE2gL4MVOa_aQrL-9L5eEkeXHFwFoSiscPZsNWn7eOKx2wYLtnt2EtH6bahNTcmlVidTUVzCcOu83zWqfeSko1bRSEYGfddCE6V405LTx5rO_a_70D4CC2YZb1nQruA",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "dfd5ef47-efd2-4ce3-a902-16799130baa2",
+  "eventID": "7d6ae2d5-05f2-419b-80d5-9ac9dd65c3e0",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:15:40Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCoYYnHZzE4qjBSHOY7guC7_V_nWXIi-fbxzcCBcUioy6MNuvn_tA4tIu5HoLWICa3-I-37o5-J5_tTgejQUvrX-73KxjPHa9QBvBeYHK2JJZy1WE2gL4MVOa_aQrL-9L5eEkeXHFwFoSiscPZsNWn7eOKx2wYLtnt2EtH6bahNTcmlVidTUVzCcOu83zWqfeSko1bRSEYGfddCE6V405LTx5rO_a_70D4CC2YZb1nQruA",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "272d96c4-9876-4708-a95f-d918996f0185",
+  "eventID": "1c1fde96-1295-40d6-804f-dcda6f2a56a0",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:15:42Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCoYYnHZzE4qjBSHOY7guC7_V_nWXIi-fbxzcCBcUioy6MNuvn_tA4tIu5HoLWICa3-I-37o5-J5_tTgejQUvrX-73KxjPHa9QBvBeYHK2JJZy1WE2gL4MVOa_aQrL-9L5eEkeXHFwFoSiscPZsNWn7eOKx2wYLtnt2EtH6bahNTcmlVidTUVzCcOu83zWqfeSko1bRSEYGfddCE6V405LTx5rO_a_70D4CC2YZb1nQruA",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "07b44c41-13cb-43ab-b1f7-9007a5730b33",
+  "eventID": "ddfef1e5-c43f-46a7-9ba7-493836c3159b",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "Root",
+    "principalId": "346733622331",
+    "arn": "arn:aws:iam::346733622331:root",
+    "accountId": "346733622331",
+    "accessKeyId": "ASIAVBOXPGQ5UULRQI7W",
+    "userName": "p6m7g8",
+    "sessionContext": {
+      "sessionIssuer": {},
+      "webIdFederationData": {},
+      "attributes": {
+        "creationDate": "2023-06-09T22:02:57Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "health.amazonaws.com"
+  },
+  "eventTime": "2023-06-10T01:15:23Z",
+  "eventSource": "health.amazonaws.com",
+  "eventName": "DescribeEventAggregates",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "health.amazonaws.com",
+  "userAgent": "AWS Internal",
+  "requestParameters": {
+    "filter": {
+      "startTimes": [
+        {
+          "from": "Jun 3, 2023, 1:15:23 AM"
+        }
+      ],
+      "eventStatusCodes": [
+        "open",
+        "upcoming"
+      ]
+    },
+    "aggregateField": "eventTypeCategory"
+  },
+  "responseElements": null,
+  "requestID": "7333c26f-444e-4b8a-ae99-ec85538f1925",
+  "eventID": "524cd844-0ce5-4309-b6a0-63ae8088c169",
+  "readOnly": true,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "sessionCredentialFromConsole": "true"
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "Root",
+    "principalId": "346733622331",
+    "arn": "arn:aws:iam::346733622331:root",
+    "accountId": "346733622331",
+    "accessKeyId": "ASIAVBOXPGQ57V27S2M2",
+    "userName": "p6m7g8",
+    "sessionContext": {
+      "sessionIssuer": {},
+      "webIdFederationData": {},
+      "attributes": {
+        "creationDate": "2023-06-09T22:02:57Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "health.amazonaws.com"
+  },
+  "eventTime": "2023-06-10T01:15:50Z",
+  "eventSource": "health.amazonaws.com",
+  "eventName": "DescribeEventAggregates",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "health.amazonaws.com",
+  "userAgent": "AWS Internal",
+  "requestParameters": {
+    "filter": {
+      "startTimes": [
+        {
+          "from": "Jun 3, 2023, 1:15:50 AM"
+        }
+      ],
+      "eventStatusCodes": [
+        "open",
+        "upcoming"
+      ]
+    },
+    "aggregateField": "eventTypeCategory"
+  },
+  "responseElements": null,
+  "requestID": "7bc64978-06d9-41d1-8deb-da45b517b163",
+  "eventID": "1f6d6bd3-5588-45f6-ba3d-dabde4ca0208",
+  "readOnly": true,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "sessionCredentialFromConsole": "true"
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "Root",
+    "principalId": "346733622331",
+    "arn": "arn:aws:iam::346733622331:root",
+    "accountId": "346733622331",
+    "accessKeyId": "ASIAVBOXPGQ5SJ3WQ6F2",
+    "userName": "p6m7g8",
+    "sessionContext": {
+      "sessionIssuer": {},
+      "webIdFederationData": {},
+      "attributes": {
+        "creationDate": "2023-06-09T22:02:57Z",
+        "mfaAuthenticated": "false"
+      }
+    }
+  },
+  "eventTime": "2023-06-10T01:15:50Z",
+  "eventSource": "health.amazonaws.com",
+  "eventName": "DescribeEventAggregates",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "AWS Internal",
+  "requestParameters": {
+    "aggregateField": "eventTypeCategory",
+    "filter": {
+      "eventStatusCodes": [
+        "open",
+        "upcoming"
+      ],
+      "startTimes": [
+        {
+          "from": "Jun 3, 2023 1:15:50 AM"
+        }
+      ]
+    }
+  },
+  "responseElements": null,
+  "requestID": "7bc64978-06d9-41d1-8deb-da45b517b163",
+  "eventID": "ad2e8137-1f72-4432-a473-a973bcc472d2",
+  "readOnly": true,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "sessionCredentialFromConsole": "true"
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:14:47Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "4ff3e723-52e4-4cf3-8b63-5b6a043eff42",
+  "eventID": "be5a8c07-15eb-4a87-a3e6-ba3bae932124",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:14:51Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "3b193a70-7278-4806-9dd3-6d6a35570bf9",
+  "eventID": "9f01c7b6-ec0a-4c10-af13-397136851f82",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:14:55Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "555ea156-703c-4f49-bd6f-366ffd07eff1",
+  "eventID": "bb2e2026-3037-4744-a64b-f2a1a03865e8",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:14:58Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "aec2aa33-6ca2-4ba0-8146-5f6b1b535369",
+  "eventID": "c6865e46-9250-4989-b118-c8d277d5a564",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:15:02Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "45911ca2-742f-488e-a9ee-b16cd6cd12f8",
+  "eventID": "84870713-e74c-4923-b86e-c3e961e8ee2f",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:15:05Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "f426c373-813e-4e81-900b-ca62e61904ae",
+  "eventID": "97f56193-6002-4925-8afa-a24454eaffeb",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:15:08Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCqd9v8vI4N4aqe3SZxeH9UtlPvdzvq4pZFZQGy7X1dNUBCQNf-AX60Iri_HLJqfLzLDui3n1hSP8mAXuJv6kz19R73O-vSD_w9ocIYqHiNel001d08cpvsXQTEWkuwNG7k-wd_IOsD_MGRwtOPyYcaZ7Kxbg-LGnq-eCk8SR1PHYMU33qt5-dpfg95rHAdRghq6iPQdJCycfzoqINk1ZVg2c2wL3U-oL4-WcUBdIAbgug",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "aefbf328-8955-40a0-8764-92856af31b94",
+  "eventID": "4bc119c8-225e-4354-832c-5429737ad947",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:15:11Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCoYYnHZzE4qjBSHOY7guC7_V_nWXIi-fbxzcCBcUioy6MNuvn_tA4tIu5HoLWICa3-I-37o5-J5_tTgejQUvrX-73KxjPHa9QBvBeYHK2JJZy1WE2gL4MVOa_aQrL-9L5eEkeXHFwFoSiscPZsNWn7eOKx2wYLtnt2EtH6bahNTcmlVidTUVzCcOu83zWqfeSko1bRSEYGfddCE6V405LTx5rO_a_70D4CC2YZb1nQruA",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "7a8e9b7e-9047-410a-a16e-e927f252dfee",
+  "eventID": "6b8c14e1-1856-4232-b3c6-a0ecfbf960f3",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:15:15Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCoYYnHZzE4qjBSHOY7guC7_V_nWXIi-fbxzcCBcUioy6MNuvn_tA4tIu5HoLWICa3-I-37o5-J5_tTgejQUvrX-73KxjPHa9QBvBeYHK2JJZy1WE2gL4MVOa_aQrL-9L5eEkeXHFwFoSiscPZsNWn7eOKx2wYLtnt2EtH6bahNTcmlVidTUVzCcOu83zWqfeSko1bRSEYGfddCE6V405LTx5rO_a_70D4CC2YZb1nQruA",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "b763ff21-ab0b-43b5-83ba-dd02d5919661",
+  "eventID": "7c3a05d8-a413-4055-8de0-9f41df423dd8",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "Root",
+    "principalId": "346733622331",
+    "arn": "arn:aws:iam::346733622331:root",
+    "accountId": "346733622331",
+    "accessKeyId": "ASIAVBOXPGQ5SJ3WQ6F2",
+    "userName": "p6m7g8",
+    "sessionContext": {
+      "sessionIssuer": {},
+      "webIdFederationData": {},
+      "attributes": {
+        "creationDate": "2023-06-09T22:02:57Z",
+        "mfaAuthenticated": "false"
+      }
+    }
+  },
+  "eventTime": "2023-06-10T01:15:23Z",
+  "eventSource": "health.amazonaws.com",
+  "eventName": "DescribeEventAggregates",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "AWS Internal",
+  "requestParameters": {
+    "aggregateField": "eventTypeCategory",
+    "filter": {
+      "eventStatusCodes": [
+        "open",
+        "upcoming"
+      ],
+      "startTimes": [
+        {
+          "from": "Jun 3, 2023 1:15:23 AM"
+        }
+      ]
+    }
+  },
+  "responseElements": null,
+  "requestID": "7333c26f-444e-4b8a-ae99-ec85538f1925",
+  "eventID": "ac8db8cb-bca8-4925-bd0d-655435453a6d",
+  "readOnly": true,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "sessionCredentialFromConsole": "true"
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "cloudtrail.amazonaws.com"
+  },
+  "eventTime": "2023-06-10T01:16:27Z",
+  "eventSource": "s3.amazonaws.com",
+  "eventName": "GetBucketAcl",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "cloudtrail.amazonaws.com",
+  "userAgent": "cloudtrail.amazonaws.com",
+  "requestParameters": {
+    "bucketName": "aws-cloudtrail-logs-346733622331-74ad4db9",
+    "Host": "aws-cloudtrail-logs-346733622331-74ad4db9.s3.us-east-1.amazonaws.com",
+    "acl": ""
+  },
+  "responseElements": null,
+  "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "bytesTransferredIn": 0,
+    "AuthenticationMethod": "AuthHeader",
+    "x-amz-id-2": "O96CMgLcZDLWdLSyX2i6EFsg79lj/M7ffmnEWv1oGDyiUD+Tq6KSu1CBN07fGCZZMCvu5xFBGts=",
+    "bytesTransferredOut": 554
+  },
+  "requestID": "2Y5BMP5ZXRDXT04H",
+  "eventID": "e7ea32b6-ccb0-4cab-87d3-c1736932766e",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::S3::Bucket",
+      "ARN": "arn:aws:s3:::aws-cloudtrail-logs-346733622331-74ad4db9"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "sharedEventID": "4f1ac047-e947-4321-91ac-d8d6051bee07",
+  "eventCategory": "Management"
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:16:46Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCpmSZ_PHnOqFWjn-ywoqQyTCUk5psS6Sh8RqRUboxfxPPsGEHGlb4jA4qC74QkHyBBGNS3PtDNcPfJG7YPQln4lmh8gGxZ7dg73wfrMB09P7F4klrrIe6pQOldBnAv5cV_gk4BBed4FlP69DGZ55Me0ScTZWBJ923kH28DPflzlrjckF_-7GRvD2O6_4AH3SD9C5cjkWQZRir9hnlnz9jpa5aiB191UTOSDKTapVeeREg",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "e991079f-f4bc-452d-8573-7210cfea3aa9",
+  "eventID": "beee31ac-21db-496c-9d1f-adf30a0c6065",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:16:51Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCpmSZ_PHnOqFWjn-ywoqQyTCUk5psS6Sh8RqRUboxfxPPsGEHGlb4jA4qC74QkHyBBGNS3PtDNcPfJG7YPQln4lmh8gGxZ7dg73wfrMB09P7F4klrrIe6pQOldBnAv5cV_gk4BBed4FlP69DGZ55Me0ScTZWBJ923kH28DPflzlrjckF_-7GRvD2O6_4AH3SD9C5cjkWQZRir9hnlnz9jpa5aiB191UTOSDKTapVeeREg",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "696edd43-d678-4e71-b26b-1c29cc573b95",
+  "eventID": "e999aea8-e654-4dbe-b32b-5899e0a9e29e",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:16:55Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCpmSZ_PHnOqFWjn-ywoqQyTCUk5psS6Sh8RqRUboxfxPPsGEHGlb4jA4qC74QkHyBBGNS3PtDNcPfJG7YPQln4lmh8gGxZ7dg73wfrMB09P7F4klrrIe6pQOldBnAv5cV_gk4BBed4FlP69DGZ55Me0ScTZWBJ923kH28DPflzlrjckF_-7GRvD2O6_4AH3SD9C5cjkWQZRir9hnlnz9jpa5aiB191UTOSDKTapVeeREg",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "dbfd8cd9-dead-4396-bbeb-c596808ff3bd",
+  "eventID": "2dadb280-c2de-4a1e-bb93-3f3f3522b679",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:16:59Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCpmSZ_PHnOqFWjn-ywoqQyTCUk5psS6Sh8RqRUboxfxPPsGEHGlb4jA4qC74QkHyBBGNS3PtDNcPfJG7YPQln4lmh8gGxZ7dg73wfrMB09P7F4klrrIe6pQOldBnAv5cV_gk4BBed4FlP69DGZ55Me0ScTZWBJ923kH28DPflzlrjckF_-7GRvD2O6_4AH3SD9C5cjkWQZRir9hnlnz9jpa5aiB191UTOSDKTapVeeREg",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "46cab719-6ef7-4717-b6ed-449d68dfa320",
+  "eventID": "c19de9fc-6f52-4baa-9fc4-c87d40bc51aa",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:17:03Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCpmSZ_PHnOqFWjn-ywoqQyTCUk5psS6Sh8RqRUboxfxPPsGEHGlb4jA4qC74QkHyBBGNS3PtDNcPfJG7YPQln4lmh8gGxZ7dg73wfrMB09P7F4klrrIe6pQOldBnAv5cV_gk4BBed4FlP69DGZ55Me0ScTZWBJ923kH28DPflzlrjckF_-7GRvD2O6_4AH3SD9C5cjkWQZRir9hnlnz9jpa5aiB191UTOSDKTapVeeREg",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "c4b0762b-58c5-4e69-ae5c-854aab67166a",
+  "eventID": "dc87b8b5-4d1d-47e5-8fe9-7328c488c0b9",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:17:05Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCpmSZ_PHnOqFWjn-ywoqQyTCUk5psS6Sh8RqRUboxfxPPsGEHGlb4jA4qC74QkHyBBGNS3PtDNcPfJG7YPQln4lmh8gGxZ7dg73wfrMB09P7F4klrrIe6pQOldBnAv5cV_gk4BBed4FlP69DGZ55Me0ScTZWBJ923kH28DPflzlrjckF_-7GRvD2O6_4AH3SD9C5cjkWQZRir9hnlnz9jpa5aiB191UTOSDKTapVeeREg",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "1b530f5e-3e94-4f94-89eb-31996cf22f78",
+  "eventID": "48d6faaa-9797-4aef-9020-3d6096a44568",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:17:08Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCpA173kQXFiAhpp_-TdH4RHlJbAwiuAFYAVKUU7CSdKE_0EdAczUEizEre__DRWAFOub0a5p89GQ8_aLqCEvJciF9wW9qIln7NRPCM5WS1MeMLjokwaxJ9iLE1ajAh90PHkgsiQ0lg1oev41Fy0_mqT4M80TYjHbVR3AORm7aAKf7IM8e9PGOhVcFYLqlAl5Yy35fQmg1F3v6d2hZCZBeRLvEGqsDU89r9hThotw7V3Tg",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "ec2d8afe-9c1b-4803-99dd-9b37439b11cb",
+  "eventID": "58e43ece-8dff-441d-82a8-4f7b0a6e1c77",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAVBOXPGQ53PRIRX65M",
+    "arn": "arn:aws:iam::346733622331:user/pgollucci",
+    "accountId": "346733622331",
+    "accessKeyId": "AKIAVBOXPGQ5QKTYW3H3",
+    "userName": "pgollucci"
+  },
+  "eventTime": "2023-06-10T01:17:11Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "FilterLogEvents",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "75.75.33.235",
+  "userAgent": "Boto3/1.26.73 Python/3.11.3 Darwin/22.4.0 Botocore/1.29.73",
+  "requestParameters": {
+    "logGroupName": "aws-cloudtrail-logs-346733622331-5611eacf",
+    "startTime": 1686359207000,
+    "nextToken": "Bxkq6kVGFtq2y_MoigeqscPOdhXVbhiVtLoAmXb5jCpA173kQXFiAhpp_-TdH4RHlJbAwiuAFYAVKUU7CSdKE_0EdAczUEizEre__DRWAFOub0a5p89GQ8_aLqCEvJciF9wW9qIln7NRPCM5WS1MeMLjokwaxJ9iLE1ajAh90PHkgsiQ0lg1oev41Fy0_mqT4M80TYjHbVR3AORm7aAKf7IM8e9PGOhVcFYLqlAl5Yy35fQmg1F3v6d2hZCZBeRLvEGqsDU89r9hThotw7V3Tg",
+    "interleaved": true,
+    "unmask": false
+  },
+  "responseElements": null,
+  "requestID": "0fe007ac-f37f-4510-9153-d45d8eb1417e",
+  "eventID": "5599c03d-a623-4878-8ab6-820a319b7749",
+  "readOnly": true,
+  "resources": [
+    {
+      "accountId": "346733622331",
+      "type": "AWS::Logs::LogGroup",
+      "ARN": "arn:aws:logs:us-east-1:346733622331:log-group:aws-cloudtrail-logs-346733622331-5611eacf:log-stream:"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "apiVersion": "20140328",
+  "managementEvent": true,
+  "recipientAccountId": "346733622331",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "logs.us-east-1.amazonaws.com"
+  }
+}
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
