@@ -108,8 +108,6 @@ const generateEmailHtml = (results: any[], zipKey: string): string => {
     html += "</a>";
     html += "</div>";
     html += "</div>";
-
-    html += "</div>";
   }
 
   html += "</body></html>";
@@ -202,7 +200,7 @@ const extractFilesFromZip = async (zipFileContent: Buffer): Promise<any> => {
   const extractedFiles = [];
 
   for (const entry of entries) {
-    if (entry.isDirectory) continue;
+    if (entry.isDirectory || entry.entryName.includes("__MACOSX")) continue;
     const extension = path.extname(entry.entryName).toLowerCase();
     if (![".jpg", ".gif", ".png"].includes(extension)) continue;
 
@@ -268,11 +266,25 @@ const resizeImage = async (image: sharp.Sharp): Promise<Buffer> => {
     .toBuffer();
 };
 
+// A utility function to handle caching
+const watermarkCache: { [key: string]: Buffer } = {}; // Define the cache object
+const getWatermarkBuffer = async (key: string): Promise<Buffer> => {
+  if (watermarkCache[key]) {
+    // If the watermark is in cache, use that
+    return watermarkCache[key];
+  } else {
+    // If not, download it, put it in the cache, and return it
+    const buffer = await downloadFromS3(key);
+    watermarkCache[key] = buffer;
+    return buffer;
+  }
+};
+
 // Add the watermark to the image
 const addWatermark = async (imageBuffer: Buffer): Promise<Buffer> => {
   console.log("Adding WaterMark...");
   const watermarkKey = await getWatermarkKey(imageBuffer);
-  const watermarkBuffer = await downloadFromS3(watermarkKey);
+  const watermarkBuffer = await getWatermarkBuffer(watermarkKey);
   const { width: imageWidth, height: imageHeight } = await sharp(
     imageBuffer
   ).metadata();
@@ -294,6 +306,7 @@ const addWatermark = async (imageBuffer: Buffer): Promise<Buffer> => {
   if (watermarkKey === compositeImageKeyBlack) {
     top -= 50;
   }
+
   console.log(`Watermark position: ${left}, ${top}`);
   return sharp(imageBuffer)
     .composite([{ input: watermarkBuffer, left, top }])
@@ -305,7 +318,7 @@ const getWatermarkKey = async (imageBuffer: Buffer): Promise<string> => {
   const { dominant } = await sharp(imageBuffer).stats();
   const { r, g, b } = dominant;
   const luminance = (r * 0.299 + g * 0.587 + b * 0.114) / 255;
-  const key = luminance > 0.5 ? compositeImageKeyWhite : compositeImageKeyBlack;
+  const key = luminance < 0.5 ? compositeImageKeyWhite : compositeImageKeyBlack;
   console.log(`Watermark key: ${key}`);
   return key;
 };
@@ -353,6 +366,7 @@ const downloadFromS3 = async (key: string): Promise<Buffer> => {
   }
 };
 
+// Convert a stream to a buffer
 const streamToBuffer = (stream: Readable): Promise<Buffer> => {
   return new Promise((resolve, reject) => {
     const chunks: any[] = [];

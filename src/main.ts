@@ -107,16 +107,16 @@ export class MyStack extends cdk.Stack {
     bucket.grantPublicAccess("*", "s3:PutObject");
 
     presignFunc.addEnvironment("BUCKET_NAME", bucket.bucketName);
-
     const brandFunc = new lambdajs.NodejsFunction(this, "brand", {
       runtime: lambda.Runtime.NODEJS_18_X,
       tracing: lambda.Tracing.ACTIVE,
       timeout: cdk.Duration.minutes(14),
-      memorySize: 512,
+      memorySize: 4096,
+      ephemeralStorageSize: cdk.Size.mebibytes(3072),
       bundling: {
         nodeModules: ["sharp"],
         forceDockerBundling: true,
-        //        minify: true,
+        minify: true,
       },
     });
     bucket.grantReadWrite(brandFunc);

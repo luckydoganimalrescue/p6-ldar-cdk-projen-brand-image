@@ -2,6 +2,16 @@
 
 exports[`Snapshot 1`] = `
 {
+  "Mappings": {
+    "AWSCloudFrontPartitionHostedZoneIdMap": {
+      "aws": {
+        "zoneId": "Z2FDTNDATAQYW2",
+      },
+      "aws-cn": {
+        "zoneId": "Z3RFFRIM2A3IF5",
+      },
+    },
+  },
   "Parameters": {
     "BootstrapVersion": {
       "Default": "/cdk-bootstrap/hnb659fds/version",
@@ -29,6 +39,189 @@ exports[`Snapshot 1`] = `
       },
       "Type": "AWS::CertificateManager::Certificate",
     },
+    "CloudfrontDnsRecord5B23BD83": {
+      "Properties": {
+        "AliasTarget": {
+          "DNSName": {
+            "Fn::GetAtt": [
+              "DistributionCFDistribution882A7313",
+              "DomainName",
+            ],
+          },
+          "HostedZoneId": {
+            "Fn::FindInMap": [
+              "AWSCloudFrontPartitionHostedZoneIdMap",
+              {
+                "Ref": "AWS::Partition",
+              },
+              "zoneId",
+            ],
+          },
+        },
+        "HostedZoneId": "DUMMY",
+        "Name": "www.ldar.p6m7g8.net.",
+        "Type": "A",
+      },
+      "Type": "AWS::Route53::RecordSet",
+    },
+    "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C81C01536": {
+      "DependsOn": [
+        "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRoleDefaultPolicy88902FDF",
+        "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRole89A01265",
+      ],
+      "Properties": {
+        "Code": {
+          "S3Bucket": "cdk-hnb659fds-assets-346733622331-us-east-1",
+          "S3Key": "9eb41a5505d37607ac419321497a4f8c21cf0ee1f9b4a6b29aa04301aea5c7fd.zip",
+        },
+        "Environment": {
+          "Variables": {
+            "AWS_CA_BUNDLE": "/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem",
+          },
+        },
+        "Handler": "index.handler",
+        "Layers": [
+          {
+            "Ref": "DeployWithInvalidationAwsCliLayerDEDD5787",
+          },
+        ],
+        "Role": {
+          "Fn::GetAtt": [
+            "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRole89A01265",
+            "Arn",
+          ],
+        },
+        "Runtime": "python3.9",
+        "Timeout": 900,
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRole89A01265": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRoleDefaultPolicy88902FDF": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "s3:GetObject*",
+                "s3:GetBucket*",
+                "s3:List*",
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Ref": "AWS::Partition",
+                      },
+                      ":s3:::cdk-hnb659fds-assets-346733622331-us-east-1",
+                    ],
+                  ],
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Ref": "AWS::Partition",
+                      },
+                      ":s3:::cdk-hnb659fds-assets-346733622331-us-east-1/*",
+                    ],
+                  ],
+                },
+              ],
+            },
+            {
+              "Action": [
+                "s3:GetObject*",
+                "s3:GetBucket*",
+                "s3:List*",
+                "s3:DeleteObject*",
+                "s3:PutObject",
+                "s3:PutObjectLegalHold",
+                "s3:PutObjectRetention",
+                "s3:PutObjectTagging",
+                "s3:PutObjectVersionTagging",
+                "s3:Abort*",
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "MyBucketF68F3FF0",
+                    "Arn",
+                  ],
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "MyBucketF68F3FF0",
+                          "Arn",
+                        ],
+                      },
+                      "/*",
+                    ],
+                  ],
+                },
+              ],
+            },
+            {
+              "Action": [
+                "cloudfront:GetInvalidation",
+                "cloudfront:CreateInvalidation",
+              ],
+              "Effect": "Allow",
+              "Resource": "*",
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRoleDefaultPolicy88902FDF",
+        "Roles": [
+          {
+            "Ref": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRole89A01265",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
+    },
     "DNFDC76583": {
       "Properties": {
         "DomainName": "api.ldar.p6m7g8.net",
@@ -42,6 +235,110 @@ exports[`Snapshot 1`] = `
         ],
       },
       "Type": "AWS::ApiGatewayV2::DomainName",
+    },
+    "DeployWithInvalidationAwsCliLayerDEDD5787": {
+      "Properties": {
+        "Content": {
+          "S3Bucket": "cdk-hnb659fds-assets-346733622331-us-east-1",
+          "S3Key": "88b83f5f61fe6f85ffcd0a37a09a8f3be90e7c090964b0b62b062eb8a5a1a3a7.zip",
+        },
+        "Description": "/opt/awscli/aws",
+      },
+      "Type": "AWS::Lambda::LayerVersion",
+    },
+    "DeployWithInvalidationCustomResourceE3FF7455": {
+      "DeletionPolicy": "Delete",
+      "Properties": {
+        "DestinationBucketName": {
+          "Ref": "MyBucketF68F3FF0",
+        },
+        "DistributionId": {
+          "Ref": "DistributionCFDistribution882A7313",
+        },
+        "DistributionPaths": [
+          "/*",
+        ],
+        "Prune": false,
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C81C01536",
+            "Arn",
+          ],
+        },
+        "SourceBucketNames": [
+          "cdk-hnb659fds-assets-346733622331-us-east-1",
+        ],
+        "SourceObjectKeys": [
+          "c4ee68c595855cd2492320bf8330fb1a1eee8d0994c365fd0c4a028cf6a386c8.zip",
+        ],
+      },
+      "Type": "Custom::CDKBucketDeployment",
+      "UpdateReplacePolicy": "Delete",
+    },
+    "DistributionCFDistribution882A7313": {
+      "Properties": {
+        "DistributionConfig": {
+          "Aliases": [],
+          "DefaultCacheBehavior": {
+            "AllowedMethods": [
+              "GET",
+              "HEAD",
+            ],
+            "CachedMethods": [
+              "GET",
+              "HEAD",
+            ],
+            "Compress": true,
+            "ForwardedValues": {
+              "Cookies": {
+                "Forward": "none",
+              },
+              "QueryString": false,
+            },
+            "TargetOriginId": "origin1",
+            "ViewerProtocolPolicy": "redirect-to-https",
+          },
+          "DefaultRootObject": "index.html",
+          "Enabled": true,
+          "HttpVersion": "http2",
+          "IPV6Enabled": true,
+          "Origins": [
+            {
+              "ConnectionAttempts": 3,
+              "ConnectionTimeout": 10,
+              "DomainName": {
+                "Fn::GetAtt": [
+                  "MyBucketF68F3FF0",
+                  "RegionalDomainName",
+                ],
+              },
+              "Id": "origin1",
+              "S3OriginConfig": {
+                "OriginAccessIdentity": {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "origin-access-identity/cloudfront/",
+                      {
+                        "Ref": "OAIE1EFC67F",
+                      },
+                    ],
+                  ],
+                },
+              },
+            },
+          ],
+          "PriceClass": "PriceClass_100",
+          "ViewerCertificate": {
+            "AcmCertificateArn": {
+              "Ref": "WWWCertificateAD2FB215",
+            },
+            "MinimumProtocolVersion": "TLSv1.2_2021",
+            "SslSupportMethod": "sni-only",
+          },
+        },
+      },
+      "Type": "AWS::CloudFront::Distribution",
     },
     "DnsRecord68F7FB14": {
       "Properties": {
@@ -248,7 +545,7 @@ exports[`Snapshot 1`] = `
     },
     "Identity2D60E2CC": {
       "Properties": {
-        "EmailIdentity": "pet-brander@ldar.\${HOSTED_ZONE_NAME}",
+        "EmailIdentity": "ldar-pet-brander@p6m7g8.com",
       },
       "Type": "AWS::SES::EmailIdentity",
     },
@@ -277,6 +574,12 @@ exports[`Snapshot 1`] = `
           "BlockPublicAcls": true,
           "IgnorePublicAcls": true,
         },
+        "Tags": [
+          {
+            "Key": "aws-cdk:cr-owned:3af531a9",
+            "Value": "true",
+          },
+        ],
         "WebsiteConfiguration": {
           "IndexDocument": "index.html",
         },
@@ -296,6 +599,32 @@ exports[`Snapshot 1`] = `
               "Effect": "Allow",
               "Principal": {
                 "AWS": "*",
+              },
+              "Resource": {
+                "Fn::Join": [
+                  "",
+                  [
+                    {
+                      "Fn::GetAtt": [
+                        "MyBucketF68F3FF0",
+                        "Arn",
+                      ],
+                    },
+                    "/*",
+                  ],
+                ],
+              },
+            },
+            {
+              "Action": "s3:GetObject",
+              "Effect": "Allow",
+              "Principal": {
+                "CanonicalUser": {
+                  "Fn::GetAtt": [
+                    "OAIE1EFC67F",
+                    "S3CanonicalUserId",
+                  ],
+                },
               },
               "Resource": {
                 "Fn::Join": [
@@ -339,6 +668,33 @@ exports[`Snapshot 1`] = `
       },
       "Type": "AWS::S3::BucketPolicy",
     },
+    "OAIE1EFC67F": {
+      "Properties": {
+        "CloudFrontOriginAccessIdentityConfig": {
+          "Comment": "Allows CloudFront to reach the bucket",
+        },
+      },
+      "Type": "AWS::CloudFront::CloudFrontOriginAccessIdentity",
+    },
+    "WWWCertificateAD2FB215": {
+      "Properties": {
+        "DomainName": "www.ldar.p6m7g8.net",
+        "DomainValidationOptions": [
+          {
+            "DomainName": "www.ldar.p6m7g8.net",
+            "ValidationDomain": "p6m7g8.net",
+          },
+        ],
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "test/WWW-Certificate",
+          },
+        ],
+        "ValidationMethod": "EMAIL",
+      },
+      "Type": "AWS::CertificateManager::Certificate",
+    },
     "brandE887937F": {
       "DependsOn": [
         "brandServiceRoleDefaultPolicy520F6E98",
@@ -347,7 +703,7 @@ exports[`Snapshot 1`] = `
       "Properties": {
         "Code": {
           "S3Bucket": "cdk-hnb659fds-assets-346733622331-us-east-1",
-          "S3Key": "1058f578e62e1f0898a5fd07af422538c34fa0a70a90488779be30b587ee22d3.zip",
+          "S3Key": "e966bf72b5312e8e0d7dc2a1b2620d1b87959ae921ef9841635d4b4075110616.zip",
         },
         "Environment": {
           "Variables": {
@@ -356,12 +712,15 @@ exports[`Snapshot 1`] = `
               "Ref": "MyBucketF68F3FF0",
             },
             "EMAIL_REGION": "us-east-1",
-            "EMAIL_SENDER": "pet-brander@ldar.\${HOSTED_ZONE_NAME}",
+            "EMAIL_SENDER": "ldar-pet-brander@p6m7g8.com",
             "FIT": "fill",
           },
         },
+        "EphemeralStorage": {
+          "Size": 4096,
+        },
         "Handler": "index.handler",
-        "MemorySize": 512,
+        "MemorySize": 4096,
         "Role": {
           "Fn::GetAtt": [
             "brandServiceRole1EE12E3C",
